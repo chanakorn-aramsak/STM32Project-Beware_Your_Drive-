@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32_File/HCSR-04_and_GY-521.ioc&apos; to &apos;STM32_File.ioc&apos;" description="Rename resource &apos;HCSR-04_and_GY-521.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HCSR-04_and_GY-521.ioc" name="STM32_File.ioc" stamp="1654163142595" updateReferences="true"/>
+</session>

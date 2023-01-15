@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+
+    <title>Beware Your Drive</title>
+    <!--font-->
+    <link rel="stylesheet" href="resource/font.css" />
+    <!--custom css-->
+    <link rel="stylesheet" href="main.css" />
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #FFEBE7;">
+    <!--header-->
+    <div class="header text-center text-danger bg-secondary bg-opacity-10">
+        <h1 class="h1 my-2">Beware Your Drive</h1>
+    </div>
+    <!--content section-->
+    <div class="main-content">
+        <!--Raw Data Part-->
+        <div class="text-center py-3 my-1">
+            <div class="raw-content"></div>
+        </div>
+
+        <!--Statistics Part-->
+        <div class=" stat-content table-responsive-lg text-center bg-opacity-50 ">
+            <div class="py-2 bg-secondary bg-opacity-25 ">
+                <h2>Violating Report</h2>
+            </div>
+            <table class="table table-secondary table-striped-columns table-group-divider table-bordered table-hover ">
+                <thead class="display-6 ">
+                    <tr>
+                        <th>Data</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody class="display-6 ">
+                    <tr>
+                        <td>Violation Count</td>
+                        <td id="count_num">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-------------custom js------------------>
+    <script type="module " src="script.js "></script>
+    <!-------------bootstrap------------------>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js " integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js " integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy " crossorigin="anonymous "></script>
+</body>
+
+</html>
